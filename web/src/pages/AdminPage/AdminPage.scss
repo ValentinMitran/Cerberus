@@ -22,19 +22,20 @@
       flex-direction: column;
       align-items: center;
       margin-top: 300px;
-
-      svg {
-        font-size: 30px;
-        color: #cacaca;
-        cursor: pointer;
-        margin: 10px 0;
+      a {
         width: 100%;
+        text-align: center;
+        margin: 10px 0;
 
         &:hover {
           color: #8f0000;
           border-left: 3px solid #8f0000;
           border-radius: 3px;
         }
+      }
+      svg {
+        font-size: 30px;
+        color: #cacaca;
       }
     }
   }
