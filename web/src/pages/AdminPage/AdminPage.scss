@@ -26,11 +26,21 @@
         width: 100%;
         text-align: center;
         margin: 10px 0;
-
         &:hover {
-          color: #8f0000;
           border-left: 3px solid #8f0000;
           border-radius: 3px;
+          svg {
+            color: #8f0000;
+          }
+        }
+      }
+
+      .active-link {
+        border-left: 3px solid #8f0000;
+        border-radius: 3px;
+
+        svg {
+          color: #8f0000;
         }
       }
       svg {

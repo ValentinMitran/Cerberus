@@ -1,6 +1,6 @@
 import React from "react";
 import "./AdminPage.scss";
-import { Switch, Route, useRouteMatch, Link } from "react-router-dom";
+import { Switch, Route, useRouteMatch, NavLink } from "react-router-dom";
 import { MdHome, MdSettings, MdEmail, MdPeople } from "react-icons/md";
 import { GoGraph } from "react-icons/go";
 import cerberus from "./cerberus.png";
@@ -19,24 +19,21 @@ const AdminPage = () => {
         <div className="sidebar">
           <img src={cerberus} alt="Cerberus" />
           <nav>
-            <Link to={`${url}`}>
+            <NavLink exact to={`${url}`} activeClassName="active-link">
               <MdHome />
-            </Link>
-            <Link to={`${url}/users`}>
+            </NavLink>
+            <NavLink to={`${url}/users`} activeClassName="active-link">
               <MdPeople />
-            </Link>
-            <Link to={`${url}/support`}>
-              {" "}
+            </NavLink>
+            <NavLink to={`${url}/support`} activeClassName="active-link">
               <MdEmail />
-            </Link>
-            <Link to={`${url}/statistics`}>
-              {" "}
+            </NavLink>
+            <NavLink to={`${url}/statistics`} activeClassName="active-link">
               <GoGraph />
-            </Link>
-            <Link to={`${url}/settings`}>
-              {" "}
+            </NavLink>
+            <NavLink to={`${url}/settings`} activeClassName="active-link">
               <MdSettings />
-            </Link>
+            </NavLink>
           </nav>
         </div>
         <div className="main">
