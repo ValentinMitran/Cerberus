@@ -25,6 +25,11 @@
       background-color: transparent;
       color: red;
     }
+    input:focus,
+    textarea:focus,
+    select:focus {
+      outline: none;
+    }
     button {
       width: 150px;
       border: 2px solid black;

@@ -4,6 +4,7 @@ import LoginPage from "../pages/AuthPage/LoginPage";
 import RegisterPage from "../pages/AuthPage/RegisterPage";
 import AdminPage from "../pages/AdminPage/AdminPage";
 import ClientPage from "../pages/ClientPage/ClientPage";
+import PrivateRoute from "./PrivateRoute";
 
 const Routes = () => {
   return (
@@ -19,9 +20,9 @@ const Routes = () => {
           <Route path="/admin">
             <AdminPage />
           </Route>
-          <Route path="/client">
+          <PrivateRoute path="/client">
             <ClientPage />
-          </Route>
+          </PrivateRoute>
         </Switch>
       </Router>
     </>
