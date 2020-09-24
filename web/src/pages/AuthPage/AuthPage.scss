@@ -1,0 +1,38 @@
+.auth-wraper {
+  width: 100vw;
+  height: 100vh;
+  background: #212427;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  img {
+    width: 200px;
+    margin-top: -210px;
+    margin-bottom: 10px;
+  }
+  form {
+    width: 600px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    input {
+      width: 300px;
+      margin-bottom: 10px;
+      border: 2px solid black;
+      padding: 10px 10px;
+      border-radius: 10px;
+      background-color: transparent;
+      color: red;
+    }
+    button {
+      width: 150px;
+      border: 2px solid black;
+      padding: 10px 40px;
+      border-radius: 10px;
+      box-sizing: border-box;
+      background-color: transparent;
+      color: red;
+    }
+  }
+}
