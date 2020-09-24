@@ -1,6 +1,6 @@
 <h1 align="center">
   <br>
-<img src="https://github.com/ValentinMitran/CerberusShop/blob/master/web/public/cerberus.jpg" alt="Cerberus" width="300">
+<img src="https://github.com/ValentinMitran/Cerberus/blob/master/web/public/cerberus.jpg" alt="Cerberus" width="300">
   <br>
   Cerberus Shop
   <br>
