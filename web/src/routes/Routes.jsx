@@ -5,6 +5,7 @@ import RegisterPage from "../pages/AuthPage/RegisterPage";
 import AdminPage from "../pages/AdminPage/AdminPage";
 import ClientPage from "../pages/ClientPage/ClientPage";
 import PrivateRoute from "./PrivateRoute";
+import LandingPage from "../pages/LandingPage/LandingPage";
 
 const Routes = () => {
   return (
@@ -23,6 +24,9 @@ const Routes = () => {
           <PrivateRoute path="/client">
             <ClientPage />
           </PrivateRoute>
+          <Route path="/">
+            <LandingPage />
+          </Route>
         </Switch>
       </Router>
     </>
