@@ -26,7 +26,7 @@
 
 Landing Page         |  Admin Dashboard | Client View   
 :-------------------------:|:-------------------------:|:-------------------------:
-<img src="https://via.placeholder.com/1920x1080" title="LandingPage " width="100%"> |<img src="https://via.placeholder.com/1920x1080" title="Admin Dashboard" width="100%">|<img src="https://via.placeholder.com/1920x1080" title="Client View" width="100%">
+<img src="https://via.placeholder.com/1920x1080" title="LandingPage " width="100%"> |<img src="https://github.com/ValentinMitran/Cerberus/blob/master/dashboard.png" title="Admin Dashboard" width="100%">|<img src="https://via.placeholder.com/1920x1080" title="Client View" width="100%">
 
 ## Folder Structure
 
