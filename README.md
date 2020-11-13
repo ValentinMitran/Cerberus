@@ -1,4 +1,4 @@
-<h1> WARNING: PROJECT TEMPORARY ON HOLD </h1>
+<h1> WARNING: PROJECT TEMPORARY ON HOLD DUE TO WORKING ON <a href="https://mortalcore.com" target="_blank"> MORTAL CORE </a> </h1>
 <h1 align="center">
   <br>
 <img src="https://github.com/ValentinMitran/Cerberus/blob/master/web/public/cerberus.jpg" alt="Cerberus" width="300">
